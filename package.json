@@ -1,5 +1,5 @@
 {
-  "name": "ionic-appauth",
+  "name": "@sneko/ionic-appauth",
   "version": "0.7.2",
   "description": "Intergration for OpenId/AppAuth-JS into Ionic V3/4/5",
   "main": "lib/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:wi3land/ionic-appauth.git"
+    "url": "git+ssh://git@github.com/wi3land/ionic-appauth.git"
   },
   "homepage": "https://github.com/wi3land/ionic-appauth#readme",
   "keywords": [
@@ -24,9 +24,7 @@
     "Angular",
     "React"
   ],
-  "author": {
-    "name": "wi3land"
-  },
+  "author": "wi3land",
   "bugs": {
     "url": "https://github.com/wi3land/ionic-appauth/issues"
   },
@@ -42,16 +40,26 @@
   ],
   "types": "lib/index.d.ts",
   "dependencies": {
-    "@openid/appauth": "^1.2.8",
-    "guid-typescript": "^1.0.9"
-  },
-  "optionalDependencies": {
     "@capacitor/core": "^2.4.0",
-    "capacitor-secure-storage-plugin": "^0.4.0",
     "@ionic-native/core": "^5.28.0",
     "@ionic-native/http": "^5.28.0",
     "@ionic-native/in-app-browser": "^5.28.0",
     "@ionic-native/safari-view-controller": "^5.28.0",
-    "@ionic-native/secure-storage": "^5.28.0"
+    "@ionic-native/secure-storage": "^5.28.0",
+    "@openid/appauth": "^1.2.8",
+    "capacitor-secure-storage-plugin": "^0.4.0",
+    "guid-typescript": "^1.0.9"
+  },
+  "optionalDependencies": {
+    "@capacitor/core": "^2.4.0",
+    "@ionic-native/core": "^5.28.0",
+    "@ionic-native/http": "^5.28.0",
+    "@ionic-native/in-app-browser": "^5.28.0",
+    "@ionic-native/safari-view-controller": "^5.28.0",
+    "@ionic-native/secure-storage": "^5.28.0",
+    "capacitor-secure-storage-plugin": "^0.4.0"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
